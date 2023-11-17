@@ -1,0 +1,56 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    background-image: linear-gradient(195deg,
+        hsl(0deg 100% 20%) 0%,
+        hsl(9deg 91% 21%) 15%,
+        hsl(15deg 84% 22%) 27%,
+        hsl(20deg 78% 23%) 38%,
+        hsl(25deg 73% 23%) 46%,
+        hsl(30deg 68% 24%) 52%,
+        hsl(35deg 64% 24%) 60%,
+        hsl(41deg 59% 25%) 71%,
+        hsl(47deg 54% 25%) 84%,
+        hsl(55deg 49% 25%) 100%
+    );
+}
+
+section{
+    height: auto;
+    margin: auto;
+    align-items: center;
+}
+
+h1{
+    font-family: 'New rocker';
+    font-size: 3rem;
+    text-align: center;
+    color: gold;
+    padding: 5px;
+}
+
+p,h2{
+    font-family: 'New rocker';
+    font-size: 1.5rem;
+    text-align: center;
+    color: #DAF7A6 ;
+    padding: 5px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    align-items: center;
+    border: 2px solid #FFC300;
+}
+
+span{
+    font-size:3rem;
+    color: #FFC300;
+}
